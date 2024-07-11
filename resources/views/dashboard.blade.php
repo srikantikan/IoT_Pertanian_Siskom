@@ -15,7 +15,9 @@
                 <div class="gauge2">
                     <div class="gauge__body2">
                         <div class="gauge__fill2"></div>
-                        <div class="gauge__cover2"></div>
+                        <div class="gauge__cover2">
+                            <span>{{ $latest_pertanian_data->kelembaban_udara }}</span><span>%</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -28,7 +30,9 @@
                 <div class="gauge">
                     <div class="gauge__body">
                         <div class="gauge__fill"></div>
-                        <div class="gauge__cover"></div>
+                        <div class="gauge__cover">
+                            <span>{{ $latest_pertanian_data->kelembaban_tanah }}</span><span>%</span>
+                        </div>
                     </div>
                 </div>
             </div>
